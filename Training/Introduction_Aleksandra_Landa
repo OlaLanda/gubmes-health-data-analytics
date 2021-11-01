@@ -1,0 +1,50 @@
+#TASK 1 - Data types
+#1. Numbers
+a1 = 5 #int
+b1 = 5.0 #float
+c1 = 3+2j #complex
+
+#2. Lists
+d = [2,56,23.6,"blue", "nice"]
+
+#3. Tuples
+e = (7,54,"sunny", "Thomas")
+
+#4. Strings
+f = "Hello from the other side"
+
+#5. Sets
+g = {1,1,2,3,4,5,5,6,6,7,7,7,8,90}
+
+#6. Dictionary
+h = {1:"Jim",2:"Toby", 3:"Pam", 4:"Oscar"}
+
+#TASK 2
+import numpy as np
+a = [1,34,5,6,32,454,"Happy Birthday"] 
+b = np.array(["Blue", "Red", "Yellow", "Purple"])
+c = (45,56,67,23,34, "Margaret", "Vivien")
+
+#TASK 3
+
+#y = []
+#n = 3
+#for i in range(n):
+    #x = 4
+    #if x > 2:
+        #x = i*(x+1)
+        #y.append(x)
+        
+#print(y)
+
+#TASK 4
+def my_cool_function(x,n):    
+    y = []
+    n = 3
+    for i in range(n):
+        x = 4
+        if x > 2:
+            x = i*(x+1)
+            y.append(x)
+        return y
+    print(y)
